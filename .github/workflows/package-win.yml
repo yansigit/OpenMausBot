@@ -130,4 +130,4 @@ jobs:
             release/*.exe.blockmap
             release/latest.yml
           if-no-files-found: error
-          retention-days: 14
+          retention-days: 7
