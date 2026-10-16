@@ -45,7 +45,7 @@ jobs:
           name: windows-browser-vendor
           path: ${{ runner.temp }}/browser-vendor/
           if-no-files-found: error
-          retention-days: 14
+          retention-days: 7
 
   smoke:
     name: Cold-start and restart on Windows
